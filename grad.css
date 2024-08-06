@@ -1,0 +1,106 @@
+#div1 {
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    background-image: conic-gradient(red, yellow, green);
+    border-radius: 50%
+}
+
+#div2 {
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    background-image: radial-gradient(red, yellow, green)
+}
+
+#div3 {
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    background-image: radial-gradient(circle, red, yellow, lightblue, white);
+    border-radius: 50%;
+}
+
+#div4 {
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    background-image: conic-gradient(green 0deg, green 45deg, blue 45deg, blue 90deg, red 90deg, red 135deg, yellow 135deg, yellow 190deg, purple 190deg)
+}
+
+#div5 {
+    border: 1px solid black;
+    width: 200px;
+    margin-top: 70px;
+    height: 20px;
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+#div6 {
+    border: 1px solid black;
+    margin-top: 20px;
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#div7 {
+    word-break: keep-all;
+    border: 1px solid black;
+    width: 200px;
+    height: 160px;
+    margin-top: 10px;
+}
+
+#div8 {
+    word-break: break-all;
+    border: 1px solid black;
+    width: 200px;
+    height: 160px;
+    margin-top: 10px;
+}
+
+#div9 {
+    border: 1px solid black;
+    height: 100px;
+    width: 300px;
+    margin-top: 10px;
+    background-color: aqua;
+}
+
+#div10 {
+    border: 1px solid black;
+    height: 100px;
+    width: 300px;
+    margin-top: 10px;
+    transform: rotate(30deg);
+    background-color: aqua;
+
+}
+
+#div11 {
+    border: 1px solid black;
+    height: 100px;
+    width: 300px;
+    margin-top: 120px;
+    transform: scale(2);
+    background-color: aqua;
+}
+
+#div12 {
+    border: 1px solid black;
+    height: 100px;
+    width: 300px;
+    margin-top: 120px;
+    transform: skewX(20deg);
+    background-color: aqua;
+}
+
+#div13 {
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    background-image: radial-gradient(red, yellow, green, blue, purple)
+}
